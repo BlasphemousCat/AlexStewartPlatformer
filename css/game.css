@@ -1,0 +1,24 @@
+.background    { background: url('https://www.filterforge.com/filters/3188.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url('http://www.mariowiki.com/images/f/fe/LightningboltSC.PNG'); }
+.wall          { background: url('cloud.png');   }
+
+.actor  { position: absolute;  }
+.coin   { background: url('http://vignette2.wikia.nocookie.net/pokemonfanon/images/d/d0/Bag_Air_Balloon_Sprite.png/revision/latest?cb=20110424180246'); }
+.player { background: rgb(64, 64, 64); }
+.crown { background: url('crown.png');}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
